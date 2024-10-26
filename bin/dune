@@ -1,0 +1,9 @@
+(executable
+ (name main)
+ (public_name trading_terminal)
+ (libraries
+  trading_terminal_lib
+  cmdliner
+  lwt
+  lwt.unix)
+ (preprocess (pps lwt_ppx)))

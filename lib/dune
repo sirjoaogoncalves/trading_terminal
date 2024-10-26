@@ -1,0 +1,11 @@
+(library
+ (name trading_terminal_lib)
+ (libraries 
+   lwt
+   lwt.unix
+   cohttp-lwt-unix
+   yojson
+   notty
+   notty.unix)
+ (preprocess
+  (pps lwt_ppx)))
