@@ -79,9 +79,6 @@ module Terminal = struct
     
     List.fold_left (<->) I.empty scale
 
-
-(* Replace the render_chart function in trading_terminal_lib.ml *)
-
 let render_chart ~width ~height ~focused ~chart_state current_data =
   let chart_style = if focused then A.(fg lightblue) else A.(fg white) in
   let up_style = A.(fg green) in
