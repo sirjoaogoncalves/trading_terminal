@@ -42,45 +42,4 @@ dune exec trading_terminal
 ## Configuration
 Edit `lib/market_data.ml` to modify the default trading pairs.
 
-## License
-[Your chosen license]
-```
 
-## 5. Project Structure Documentation
-
-Create a STRUCTURE.md file:
-
-```markdown
-# Project Structure
-
-## Core Components
-
-### `lib/trading_terminal_lib.ml`
-Main terminal UI implementation including:
-- Chart rendering
-- Market overview
-- User input handling
-- Terminal layout management
-
-### `lib/market_data.ml`
-Market data handling including:
-- API integration
-- Data caching
-- Default pairs configuration
-- Price updates
-
-### `lib/types.ml`
-Type definitions for:
-- Market data structures
-- UI state management
-- Chart configurations
-
-### `lib/ui.ml`
-Common UI components:
-- Box drawing
-- Status bar
-- Keybinds display
-
-## Build System
-- `dune` files for project configuration
-- `trading_terminal.opam` for dependency management
